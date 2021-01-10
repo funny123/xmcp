@@ -21,5 +21,5 @@ Route::get('foo', function () {
     return 'Hello World';
 });
 Route::get('user/{id}', function ($id) {
-    return 'User '.$id;
+    return 'User12 '.$id;
 })->middleware('checkAge');
